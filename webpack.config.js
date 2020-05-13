@@ -23,16 +23,18 @@ module.exports = {
         options: {
           cacheDirectory: true,
           presets: [
-            '@babel/preset-env',
-            {
-              targets: {
-                browsers: ['safari >=7', 'ie >= 8', 'chrome >=43']
+            [
+              '@babel/preset-env',
+              {
+                targets: {
+                  browsers: ['safari >=7', 'ie >= 8', 'chrome >=43']
+                }
               }
-            },
+            ],
             '@babel/preset-react'
           ],
           plugins: [
-            ['@babel/plugin-transform-runtime', { corejs: 2 }],
+            ['@babel/plugin-transform-runtime', { corejs: 3 }],
             ['@babel/plugin-proposal-decorators', { legacy: true }],
             ['@babel/plugin-proposal-class-properties', { loose: true }],
             '@babel/plugin-syntax-dynamic-import'

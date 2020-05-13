@@ -1,0 +1,7 @@
+{
+    "eslint.options": {
+        "configFile": ".eslintrc.js"
+    },
+    "eslint.alwaysShowStatus": true,
+    "editor.codeActionOnSave": true
+}

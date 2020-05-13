@@ -1,4 +1,15 @@
-node_modules
-*eslintcache
+*.swp
+*dia~
+.idea
+.DS_Store
+.eslintcache
+.npmrc
 .git
+
+yarn.lock
+yarn-error.log
+
+npm-debug.log
 package-lock.json
+
+node_modules
