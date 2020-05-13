@@ -1,0 +1,39 @@
+{
+  "name": "micro-front-ends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halionn/micro-front-ends.git"
+  },
+  "keywords": [
+    "micro",
+    "frontend",
+    "react"
+  ],
+  "author": "halion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halionn/micro-front-ends/issues"
+  },
+  "homepage": "https://github.com/halionn/micro-front-ends#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "jsdoc": "^3.6.4",
+    "prettier": "^2.0.5",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
