@@ -11,11 +11,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'micro.js',
     library: 'root',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['.ts', '.tsx']
+    extensions: ['.ts', '.tsx'],
   },
   module: {
     rules: [
@@ -28,29 +28,20 @@ module.exports = {
             options: {
               cacheDirectory: true,
               presets: [
-                [
-                  '@babel/preset-env',
-                  {
-                    targets: {
-                      browsers: ['safari >= 7', 'ie >= 8', 'chrome >= 43']
-                    }
-                  }
-                ],
-                '@babel/preset-react'
+                '@babel/preset-env',
+                '@babel/preset-react',
                 // '@babel/preset-typescript'
               ],
               plugins: [
                 ['@babel/plugin-transform-runtime', { corejs: 3 }],
-                ['@babel/plugin-proposal-class-properties', { loose: true }]
-              ]
-            }
+                ['@babel/plugin-proposal-class-properties', { loose: true }],
+              ],
+            },
           },
-          'ts-loader'
-        ]
-      }
-    ]
+          'ts-loader',
+        ],
+      },
+    ],
   },
-  plugins: [
-    new CleanWebpackPlugin()
-  ]
-}
+  plugins: [new CleanWebpackPlugin()],
+};
