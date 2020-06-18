@@ -2,6 +2,8 @@
     "eslint.options": {
         "configFile": ".eslintrc.js"
     },
+    "eslint.enable": true,
     "eslint.alwaysShowStatus": true,
-    "editor.codeActionOnSave": true
+    "editor.codeActionOnSave": true,
+    "editor.formatOnSave": true
 }

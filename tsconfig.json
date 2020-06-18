@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/esm",
+    "sourceMap": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "module": "es6",
+    "target": "es6",
+    "noEmit": false,
+    "baseUrl": "./",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "./dist/types"
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
